@@ -1,0 +1,33 @@
+[user]
+	name = ziven
+	email = zyhawy108@126.com
+[safe]
+	directory = e:/github/keil
+	directory = e:/github
+#[url "https://githubfast.com"]
+#	insteadof = https://github.com
+#[url "https://github.com/golang"]
+#	insteadof = https://golang.org/x
+#[http]
+#	postBuffer = 5000000000
+[core]
+#	compression = -1
+#	packedGitLimit = 3g
+#	packedGitWindowSize = 3g
+#	packedGitMMAP = true
+#[credential "https://githubfast.com"]
+#	provider = github
+[http]
+	lowSpeedLimit = 0
+	lowSpeedTime = 999999
+	postBuffer = 5242880000
+#	version = HTTP/1.1
+	sslVerify = false
+#	proxy = http://127.0.0.1:1080
+#[pack]  
+#	threads = 1  
+#	deltaCacheSize = 2g
+#    packSizeLimit = 3g 
+#    windowMemory = 2g 	
+#[sendpack]
+#	sideband = false
