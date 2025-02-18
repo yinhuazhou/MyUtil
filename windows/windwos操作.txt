@@ -1,0 +1,6 @@
+win+x:
+win+L:
+win+I: 
+
+services.msc
+eventvwr.msc

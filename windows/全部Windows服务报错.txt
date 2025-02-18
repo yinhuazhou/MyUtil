@@ -1,0 +1,3 @@
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MUI\StringCacheSettings
+虚拟机里模拟删除StringCacheGeneration或StringCacheSettings，
+HKCR\Local Settings\MuiCache

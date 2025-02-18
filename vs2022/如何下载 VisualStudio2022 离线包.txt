@@ -1,0 +1,21 @@
+如何下载 VisualStudio2022 离线包
+2.3 执行命令
+
+2.3.1 下载全部：
+
+vs_Enterprise.exe --layout E:\VisualStudio2022(这里应该是你自己的目录) --all 
+2.3.2 选择下载
+
+2.3.2.1 下载参数
+
+--layout：指定 VS2022 相关组件的下载目录；
+
+--add：添加将要下载的工作负载，比如指定添加 ManagedDesktop；
+
+--includeRecommended：安装相关工作负载的推荐组件；
+
+--lang：下载指定的语言包：英文(en-US)、中文(zh-CN)；
+
+vs_Enterprise.exe --layout 保存路径 --all --includeRecommended --includeOptional --lang zh-CN
+
+vs_Enterprise.exe --layout e:\vs2022 --all --includeRecommended --includeOptional --lang zh-CN
